@@ -1,14 +1,36 @@
-Perintah Dasar
-- wd = untuk melihat forder 
+================================================================
+
+                    <<< PERINTAH DASAR GIT >>>
+                    
+- pwd => untuk melihat forder 
 - ls
-- cd
--  git init == mejadikan forder menjadi git 
--  git status
--  git add <file> // git add .
-- git commit -m "perintah"
+- cd => masuk ke forder di destop
+- git init => mejadikan forder menjadi git 
+- git status
+- git add <file> // git add . => menambahkan file
+- git commit -m "perintah"  
 - vim   keluar perintah :!
- git log  = melihat history
+- git log  = melihat history
     * git log - 3
     * git log --<file> 
     
- git checkout + '6'angka pertama file  + name file
+ - git checkout + '6'angka pertama file  + name file
+ 
+ 
+==================================================================
+
+                     << PERINTAH LANJUTAN GIT >>
+                     
+  - git commit -a -m / git commit -am " " => kalau file sudah modifet
+  - git branch => melihat file branch
+  - git branch <nama_branch> 
+  - git log --all --decorate --oneline --graph => perintah graph
+    * membuat alias
+     => alias graph="git log --all --decorate --oneline --graph"
+  - git checkout <nama _branch> => perintah untuk pindah branch
+  - git merge <nama_branch> =>perintah mengabungkan branch
+    * git branch --merged =>perintah melihat file sudeh di merge
+  - git branch -d <nama_branch> =>perintah penghapus branch sesudah di merge
+   * git branch -D <nama_file> => perintah menhapus tampa merge
+   
+  
