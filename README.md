@@ -1,2 +1,2 @@
 # file-git
-perintah menjalankan git
+Perintah Menjalankan 'git'
