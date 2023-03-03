@@ -33,4 +33,7 @@
   - git branch -d <nama_branch> =>perintah penghapus branch sesudah di merge
    * git branch -D <nama_file> => perintah menhapus tampa merge
    
-  
+  =====================================================================
+           <<< PERINTAH LANJUTAN >>
+           
+           
